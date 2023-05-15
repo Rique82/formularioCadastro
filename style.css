@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(baraba.jpg);
+    background-position: center;
+    background-size: contain;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.registroformulario
+{
+    width: 800px;
+    background-color: blue;
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em red;
+}
+
+.formulario
+{
+    background-color: rgb(0,0,0,0.6);
+    width: 800px;
+    margin: auto;
+}
+
+.form
+{
+    padding: 10px;
+}
+
+#nome
+{
+  width: 100%;
+  height: 100px;  
+}
+
+.nome
+{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.umnome
+{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.sobrenome
+{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+}
+
+.umlabel
+{
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 200px;
+    top: -45px;
+}
+
+.sobrelabelum
+{
+    position: relative;
+    color: #E5E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 10px;
+    top: 45px;
+}

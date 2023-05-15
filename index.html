@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de cadastro</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        
+    <div class="registroformulario"><h1>Formulario de Cadastro</h1></div>
+     
+    <div class="formulario">
+        <form>
+            <Div id=nome>
+
+                <h2 class="nome">nome e sobrenome</h2>
+                <input class="umnome" type="text" name="um_nome">
+                <label class="umlabel" >nome</label>
+                <input class="sobrenome" type="text" name="sobre_nome">
+                <label class="sobrelabelum">sobrenome</label>
+
+            </Div>
+            
+            <h2 class="nome">Empresa</h2>
+            <input class="empresa" type="text" name="empresa">
+
+            <h2 class="nome">Email</h2>
+            <input class="email" type="text" name="email">
+
+            <h2 class="nome">Telefone com DDD</h2>
+            <input class="codigo" type="text" name="codigo_a">
+            <label class="codigo_a">DDD</label>
+            <input class="number" type="text" name="phone">
+            <label class="numero-telefone">Telefone</label>
+
+            <h2 class="nome">Sexo</h2>
+            <select class="opcoes" name="assunto">
+                <option disabled="disabled" selected="selected">... Selecione a opção</option>
+                <option>Masculino</option>
+                <option>feminino</option>
+            </select>
+
+
+            <h2 class="nivel"> Você é inciante? </h2>
+
+            <label class="radio">
+                <input class="radio_um" type="radio" name="radio" checked="checked" name="">
+                <span class="checkmark"></span>
+
+                Sim
+
+            </label>
+
+            <label class="radio">
+                <input class="radio_dois" type="radio" name="radio" checked="checked" name="">
+                <span class="checkmark"></span>
+
+                Não
+
+            </label>
+
+            <button type="submit"> Enviar</button>
+                
+        </form>
+        
+        
+    </div>
+</body>
+</html>
