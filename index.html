@@ -11,61 +11,64 @@
         
     <div class="registroformulario"><h1>Formulario de Cadastro</h1></div>
      
-    <div class="formulario">
-        <form>
-            <Div id=nome>
-
-                <h2 class="nome">nome e sobrenome</h2>
-                <input class="umnome" type="text" name="um_nome">
-                <label class="umlabel" >nome</label>
-                <input class="sobrenome" type="text" name="sobre_nome">
-                <label class="sobrelabelum">sobrenome</label>
-
-            </Div>
+            <div class="conteudo">
+          
             
-            <h2 class="nome">Empresa</h2>
-            <input class="empresa" type="text" name="empresa">
+                <form>
+                    
+                    <Div id=nome>
 
-            <h2 class="nome">Email</h2>
-            <input class="email" type="text" name="email">
+                        <h2 class="nome">Nome e sobrenome</h2>
+                        <input class="primeironome" type="text" name="primeiro_nome">
+                        <label class="primeirolabel" >nome</label>
+                        <input class="sobrenome" type="text" name="sobre_nome">
+                        <label class="sobrenomelabel">sobrenome</label>
 
-            <h2 class="nome">Telefone com DDD</h2>
-            <input class="codigo" type="text" name="codigo_a">
-            <label class="codigo_a">DDD</label>
-            <input class="number" type="text" name="phone">
-            <label class="numero-telefone">Telefone</label>
+                    </Div>
+                    
+                    <h2 class="nome">Empresa</h2>
+                    <input class="empresa" type="text" name="empresa">
 
-            <h2 class="nome">Sexo</h2>
-            <select class="opcoes" name="assunto">
-                <option disabled="disabled" selected="selected">... Selecione a opção</option>
-                <option>Masculino</option>
-                <option>feminino</option>
-            </select>
+                    <h2 class="nome">Email</h2>
+                    <input class="email" type="text" name="email">
+
+                    <h2 class="nome">Telefone com DDD</h2>
+                    <input class="codigo" type="text" name="codigo_a">
+                    <label class="codigo_area">DDD</label>
+                    <input class="number" type="text" name="phone">
+                    <label class="numero-telefone">Telefone</label>
+
+                    <h2 class="nome">Sexo</h2>
+                    <select class="opcoes" name="assunto">
+                        <option disabled="disabled" selected="selected">... Selecione a opção</option>
+                        <option>Masculino</option>
+                        <option>feminino</option>
+                    </select>
 
 
-            <h2 class="nivel"> Você é inciante? </h2>
+                    <h2 id="nivel">Você é inciante?</h2>
 
-            <label class="radio">
-                <input class="radio_um" type="radio" name="radio" checked="checked" name="">
-                <span class="checkmark"></span>
+                    <label class="radio">
+                        <input class="radio_um" type="radio" name="radio" checked="checked" name="">
+                        <span class="checkmark"></span>
 
-                Sim
+                        Sim
 
-            </label>
+                    </label>
 
-            <label class="radio">
-                <input class="radio_dois" type="radio" name="radio" checked="checked" name="">
-                <span class="checkmark"></span>
+                    <label class="radio">
+                        <input class="radio_dois" type="radio" name="radio" checked="checked" name="">
+                        <span class="checkmark"></span>
 
-                Não
+                        Não
 
-            </label>
+                    </label>
 
-            <button type="submit"> Enviar</button>
-                
-        </form>
+                    <button type="submit"> Enviar</button>
+                        
+                </form>
         
-        
+            </div>
     </div>
 </body>
 </html>
