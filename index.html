@@ -19,34 +19,34 @@
                     <Div id=nome>
 
                         <h2 class="nome">Nome e sobrenome</h2>
-                        <input class="primeironome" type="text" name="primeiro_nome">
+                        <input class="primeironome" type="text" name="primeiro_nome" required>
                         <label class="primeirolabel" >nome</label>
-                        <input class="sobrenome" type="text" name="sobre_nome">
+                        <input class="sobrenome" type="text" name="sobre_nome" required>
                         <label class="sobrenomelabel">sobrenome</label>
 
                     </Div>
                     
                     <h2 class="nome">Empresa</h2>
-                    <input class="empresa" type="text" name="empresa">
+                    <input class="empresa" type="text" name="empresa" required>
 
                     <h2 class="nome">Email</h2>
-                    <input class="email" type="text" name="email">
+                    <input class="email" type="text" name="email" required>
 
                     <h2 class="nome">Telefone com DDD</h2>
-                    <input class="codigo" type="text" name="codigo_a">
+                    <input class="codigo" type="text" name="codigo_a" maxlength="2" minlength="2" required>
                     <label class="codigo_area">DDD</label>
-                    <input class="number" type="text" name="phone">
+                    <input class="number" type="text" name="phone" maxlength="9" minlength="9" required>
                     <label class="numero-telefone">Telefone</label>
 
                     <h2 class="nome">Sexo</h2>
-                    <select class="opcoes" name="assunto">
+                    <select class="opcoes" name="assunto" required>
                         <option disabled="disabled" selected="selected">... Selecione a opção</option>
                         <option>Masculino</option>
                         <option>feminino</option>
                     </select>
 
 
-                    <h2 id="nivel">Você é inciante?</h2>
+                    <h2 id="nivel">Você é iniciante?</h2>
 
                     <label class="radio">
                         <input class="radio_um" type="radio" name="radio" checked="checked" name="">
